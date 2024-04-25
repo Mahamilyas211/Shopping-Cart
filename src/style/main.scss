@@ -71,14 +71,25 @@ p {
       position: relative;
       img {
         @include width(100%, 100%, none, none, 20px, none);
+      margin-left: 10px;
+      padding-right: 10px;
+      
       }
     }
     h3 {
       font-size: 16px;
+      margin-left: 4px;
+      
     }
     p {
       font-style: italic;
       margin: 5px 0;
+      margin-left: 4px;
+
+      
+    }
+    h4{
+      margin-left: 5px
     }
     .button {
       @include width($xl-6, $xl-6, $white, $blue, 50%, none);
@@ -111,6 +122,14 @@ p {
   .post {
     .content {
       position: relative;
+      .img{
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        
+
+      }
       .text {
         @include positions(absolute, 0, none, 0, none, 100%, 100%);
         padding: $xl-3;
