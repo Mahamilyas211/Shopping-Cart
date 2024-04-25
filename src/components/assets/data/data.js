@@ -61,7 +61,7 @@ export const products = [
     cover: "../images/product/1-1-1.jpg",
     title: "Floating 2021 iPhone 12 Mockups (PSD)",
     author: "by Blueskytechco in Mockups",
-    price: 30.0,
+    price: 30.0 ,
     category: "mockups",
     qty: 0,
   },

@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     window.addEventListener("scroll", function (){
         const header = this.document.querySelector(".header")
-        header.classList.toggle("active", this.window.screenY > 100)
+        header.classList.toggle("active", this.window.scrollY > 100)
     })
     const [mobile, setMobile] = useState(false)
   return (
