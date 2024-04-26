@@ -2,7 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <>
+    <footer>
+      <p>Copyright © 2024. GOSTO all rights reserved. </p>
+    </footer>
+    </>
   )
 }
 

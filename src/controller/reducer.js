@@ -7,7 +7,8 @@ const initialStore = {
 export const cartReducer = (state = initialStore, action) => {
   switch (action.type) {
     case ADD_CART:
-      /*return {
+      
+        /*return {
         ...state,
         carts: [...state.carts, action.payload],
       }*/
