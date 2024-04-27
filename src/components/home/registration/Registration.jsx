@@ -84,7 +84,7 @@ const Registration = () => {
       />
       <span className="error-message">{formik.errors.password}</span>
     </div>
-    <button type="submit" className="button">
+    <button type="submit" className="button1">
       Signup
     </button>
   </form>

@@ -24,25 +24,33 @@
   border: 1px solid #ccc;
   border-radius: 3px;
 }
+.input:hover{
+  border: 1px solid;
+  border-color:blue ;
+  box-shadow: 10px 10px 0px rgba(128, 63, 63, 0.1);
+
+}
 
 .error-message {
   color: red;
   font-size: 12px;
 }
 
-.button {
+.button1 {
+
   display: block; 
   margin: 0 auto; 
   padding: 10px 20px;
-  background-color: #007bff;
+  
+  background-color: #cc3623;
   color: #fff;
   border: none;
-  border-radius: 3px;
+  border-radius: 15px;
   cursor: pointer;
   
 }
-.button:hover {
-  background-color: #0056b3;
+.button1:hover {
+  background-color: #ff5400;
   
 }
 

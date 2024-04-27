@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Heading from '../../common/Heading'
 import ProductItems from './ProductItems'
 import { products } from '../../assets/data/data'
+import { Link } from 'react-router-dom'
 
 export const Product = () => {
     const [data, setdata] = useState(products)
@@ -11,7 +12,8 @@ export const Product = () => {
         <div className="container">
            <Heading title='Trending Products' desc='Check the hottest designs of the week. These rising stars are worth your attention.' />
 
-           <ProductItems data={data} />
+           <ProductItems data={data}  />
+           
             </div>
             </div>
             </>

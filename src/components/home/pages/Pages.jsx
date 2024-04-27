@@ -23,6 +23,7 @@ const Pages = () => {
           <Route exact path='/cart/:id'>
             <Details />
           </Route>
+          
           <Route exact path='/registration'>
             <Registration /> {/* Add the registration page route */}
           </Route>

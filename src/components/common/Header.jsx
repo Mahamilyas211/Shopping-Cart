@@ -10,6 +10,7 @@ import { AiOutlineHeart, AiOutlineMenu, AiOutlineClose, AiOutlineDelete } from "
 import { Link } from 'react-router-dom';
 import { connect, useDispatch, useSelector } from 'react-redux';
 import { DELETE } from '../../controller/action';
+import { hover } from '@testing-library/user-event/dist/hover';
 
 const Header = () => {
     // scroll navbar
@@ -48,6 +49,7 @@ const Header = () => {
     useEffect(() => {
         totals()
     }, [totals])
+    const style = { color: "red" }
     return (
         <>
             <header className='header'>
@@ -77,9 +79,9 @@ const Header = () => {
                         </div>
                         <div className="right_user" >
                             <Link to='/registration'>
-                            <RiUser3Line className='userIcon heIcon' /></Link>
+                            <RiUser3Line className='userIcon heIcon' style={style} /></Link>
                             
-                            <AiOutlineHeart className='userIcon heIcon' />
+                            <AiOutlineHeart className='userIcon heIcon' style={style} />
                         </div>
                         <div className="right_card">
                             <button className='button' onClick={() => setCartList(!cartList)}>

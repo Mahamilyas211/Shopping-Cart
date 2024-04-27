@@ -25,6 +25,8 @@ a {
     color: $primary;
   }
 }
+
+
 input,
 button,
 li {
@@ -149,6 +151,7 @@ footer {
   text-align: center;
   @include pa_ma($xl-2, $large 0 0 0);
   background: $dark;
+  
   p {
     color: $light;
   }
