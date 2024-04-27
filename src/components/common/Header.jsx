@@ -69,6 +69,12 @@ const Header = () => {
                                         <Link to={nav.path}>{nav.text}</Link>
                                     </li>
                                 ))}
+                                <li>
+                                <Link to="/contact">{navlist.find(item => item.text === 'Contact Us')?.text}</Link>
+                            </li>
+                            <li>
+                                <Link to="/about">{navlist.find(item => item.text === 'About Us')?.text}</Link>
+                            </li>
                             </ul>
                         </div>
                     </nav>

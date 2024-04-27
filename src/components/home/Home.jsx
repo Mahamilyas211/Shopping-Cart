@@ -7,6 +7,7 @@ import TopProduct from './topproduct/TopProduct'
 import Price from './price/Price'
 import Testimonial from './testimonial/Testimonial'
 import Blog from './blog/Blog'
+import Contact from './contact/Contact'
 
 
 const Home = () => {
@@ -20,6 +21,8 @@ const Home = () => {
      <Price />
      <Testimonial />
      <Blog />
+     <Contact />
+
      
 
      
