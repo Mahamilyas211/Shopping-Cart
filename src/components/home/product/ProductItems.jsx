@@ -3,6 +3,7 @@ import { AiOutlineClose, AiOutlineHeart } from 'react-icons/ai';
 import { FiSearch, FiShoppingBag } from "react-icons/fi";
 import { useDispatch } from 'react-redux';
 import { ADD } from "../../../controller/action"
+import { Link } from 'react-router-dom';
 
 
 const ProductItems = ({data}) => {
@@ -24,7 +25,8 @@ const ProductItems = ({data}) => {
       {data.map((items) => (
         <div className="box" key={items.id}>
           <div className="img">
-            <img src={items.cover} alt="" />
+            <Link to='/cart/:id'>
+            <img src={items.cover} alt="" /> </Link>
             <div className="overlay">
               <button className='button'>
                 <FiShoppingBag onClick={() => addToCart(items)} />

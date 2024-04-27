@@ -20,6 +20,9 @@ const Home = () => {
      <Price />
      <Testimonial />
      <Blog />
+     
+
+     
 
     </>
   )

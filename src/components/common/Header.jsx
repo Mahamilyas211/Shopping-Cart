@@ -75,8 +75,10 @@ const Header = () => {
                             <input type="text" placeholder='Search Products...' />
                             <BiSearch className='searchIcon heIcon' />
                         </div>
-                        <div className="right_user">
-                            <RiUser3Line className='userIcon heIcon' />
+                        <div className="right_user" >
+                            <Link to='/registration'>
+                            <RiUser3Line className='userIcon heIcon' /></Link>
+                            
                             <AiOutlineHeart className='userIcon heIcon' />
                         </div>
                         <div className="right_card">

@@ -9,6 +9,7 @@ import Header from '../../common/Header';
 import Footer from '../../common/Footer';
 import Home from '../Home';
 import Details from '../details/Details';
+import Registration from '../registration/Registration';
 
 const Pages = () => {
   return (
@@ -22,6 +23,10 @@ const Pages = () => {
           <Route exact path='/cart/:id'>
             <Details />
           </Route>
+          <Route exact path='/registration'>
+            <Registration /> {/* Add the registration page route */}
+          </Route>
+          
         </Switch>
         <Footer />
       </Router>
